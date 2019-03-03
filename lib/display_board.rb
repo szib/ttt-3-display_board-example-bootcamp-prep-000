@@ -2,5 +2,6 @@
 def display_board
   empty_cell = "   "
   row = "#{empty_cell}|#{empty_cell}|#{empty_cell}"
-  for()
+  separator_row = "-" * 11
+  puts row + separator_row + row + separator_row + row
 end
